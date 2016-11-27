@@ -6,11 +6,11 @@
             <BuildUrl
             	id="build"
             	title="LatestBuild"
-            	description="Download Latest Build">¡Esto es una prueba! Si te llega la notificación, ¡¡significa que te funcionan las actualizaciones OTA!!</BuildUrl>
+            	description="Download Latest Build">https://raw.githubusercontent.com/Darkmet98/OTA/master/TEST</BuildUrl>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download ResurrectionRemix builds">https://www.androidfilehost.com/</RomUrl>
+                description="Download ResurrectionRemix builds">https://goo.gl/JkOJcx</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
