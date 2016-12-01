@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	 <paella>
-            <Filename>ResurrectionRemix-N-v5.8.0-20160101-paella.zip</Filename>
+            <Filename>ResurrectionRemix-N-v5.8.0-20161201-paella.zip</Filename>
             <BuildUrl
             	id="build"
             	title="LatestBuild"
-            	description="Download Latest Build">https://raw.githubusercontent.com/Darkmet98/OTA/master/TEST</BuildUrl>
+            	description="Download Latest Build">https://goo.gl/oOCmBR</BuildUrl>
             <RomUrl
                 id="rom"
                 title="Rom"
@@ -14,11 +14,11 @@
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/nougat7.1/CHANGELOG.mkdn</ChangelogUrl>
+                description="View Changelog">https://goo.gl/3j7Y1x</ChangelogUrl>
             <SlimGappsUrl
             	id="slim_gapps"
             	title="Slim GApps"
-            	description="Download Slim latest GApps">https://www.androidfilehost.com/?w=files&amp;flid=41043</SlimGappsUrl>
+            	description="Download Slim latest GApps">https://goo.gl/HUNDSc</SlimGappsUrl>
              <BanksGappsUrl
             	id="banks_gapps"
             	title="BaNkS Dynamic GApps"
