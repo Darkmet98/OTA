@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	 <paella>
-            <Filename>RR-N-v5.8.0-20161224-paella-xmas.zip</Filename>
+            <Filename>RR-N-v5.8.0-20170106-paella-Unofficial.zip</Filename>
             <BuildUrl
             	id="build"
             	title="LatestBuild"
-            	description="Download Latest Build">https://goo.gl/17BmNT</BuildUrl>
+            	description="Download Latest Build">https://goo.gl/vVG2ce</BuildUrl>
             <RomUrl
                 id="rom"
                 title="Rom"
