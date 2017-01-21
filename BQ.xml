@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	 <picmt>
-            <Filename>RR-N-v5.8.0-20170121-picmt-Unofficial.zip</Filename>
+            <Filename>RR-N-v5.8.0-20170120-picmt-Unofficial.zip</Filename>
             <BuildUrl
             	id="build"
             	title="LatestBuild"
