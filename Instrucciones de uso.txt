@@ -1,0 +1,22 @@
+Lo dejo para los interesados en darle soporte a esta ROM
+
+Pero antes, quiero documentar algo sobre los archivos (para las personas nuevas en esto)
+
+-ota_conf-
+En ota_conf solo se cambia un valor, es el de "ota_url=https://raw.githubusercontent.com/Darkmet98/OTA/master/BQ.xml" que es el XML donde lee la ROM las actualizaciones.
+Por lo qué si vas a darle soporte vía OTA, tendrías que modificarlo dando el enlace directo del xml como hago yo.
+
+-BQ.xml- (También puede llamarse de otra manera)
+Aquí es donde la ROM va a leer todo para la OTA, procura tenerlo bien para que así no pete el updater al leer el XML.
+En este caso, únicamente está puesto el actualizador para el X5, pero hay 2 nombres, para quien no lo sepa, el teléfono originalmente tiene 2 nombres, "paella" y "picmt".
+"Paella" es el nombre que le puso cyanogenOS cuando tuvo soporte en su día.
+"Picmt" (Piccolometal) es el nombre que le puso BQ al teléfono.
+Como ahora picmt ha quedado obsoleto, solo se usa el nombre de paella, por lo qué vamos a omitir ese apartado.
+-Filename: Es el nombre del zip generado. El actualizador lo primero que lee es esto, por lo que si el valor que tiene es superior que el que tiene el actualizador, te salta la actualización, si es inferior, diferente o igual, no te salta la actualización. Tan solo es cambiar el nombre por el zip generado para que pueda notificar de una nueva actualización (Por ejemplo: https://github.com/Darkmet98/OTA/commit/5c808bc62a01953c772e12dc277603759a58e4f8)
+-<RomUrl: Aquí es donde se localiza la URL de descarga de la ROM, mi consejo es usar siempre goo.gl para así evitar errores de nombres largos o cualquier tontería, solo es cambiar el valor de la url para que lea la nueva (ejemplo: https://github.com/Darkmet98/OTA/commit/5c808bc62a01953c772e12dc277603759a58e4f8)
+-<ChangelogUrl: Aquí es donde puedes poner el changelog hecho por ti de la ROM, al igual que los otros, solo es cambiar el valor del url si quieres poner uno nuevo.
+-<SlimGappsUrl: Esto son las gapps, pero es mejor no tocar esto.
+-<BanksGappsUrl: Esto son otras gapps, pero es mejor no tocar esto.
+
+Bueno, esto es lo básico, un saludo.
+-Darkmet
